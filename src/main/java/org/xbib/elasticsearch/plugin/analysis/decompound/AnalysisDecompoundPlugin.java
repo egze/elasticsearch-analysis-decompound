@@ -19,9 +19,9 @@ import org.elasticsearch.common.inject.Inject;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.index.analysis.AnalysisModule;
 import org.xbib.elasticsearch.index.analysis.decompound.DecompoundAnalysisBinderProcessor;
-import org.elasticsearch.plugins.Plugin;
+import org.elasticsearch.plugins.AbstractPlugin;
 
-public class AnalysisDecompoundPlugin extends Plugin {
+public class AnalysisDecompoundPlugin extends AbstractPlugin {
 
     private final Settings settings;
 

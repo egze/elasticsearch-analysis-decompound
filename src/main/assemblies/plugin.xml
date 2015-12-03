@@ -16,10 +16,4 @@
             </excludes>
         </dependencySet>
     </dependencySets>
-    <files>
-        <file>
-            <source>plugin-descriptor.properties</source>
-            <filtered>true</filtered>
-        </file>
-    </files>
 </assembly>
